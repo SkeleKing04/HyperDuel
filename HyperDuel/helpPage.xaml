@@ -1,0 +1,21 @@
+﻿<Window x:Class="HyperDuel.helpPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HyperDuel"
+        mc:Ignorable="d"
+        Title="helpPage" Height="450" Width="800
+        " FontSize="16">
+    <Grid Margin="0,0,0,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFE9FEFF" Offset="0.5"/>
+                <GradientStop Color="#B200D3DC" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="backbutton" Content="&lt;---" HorizontalAlignment="Left" Height="22" Margin="10,10,0,0" VerticalAlignment="Top" Width="47" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}" Click="backButton_Click" FontWeight="Bold" FontSize="12"/>
+        <TextBlock Text="To play Hyper Duel, you first need to make a character in the Character Creator (don't forget to save). Once you have made at least one character, the &quot;Duel&quot; button is now clickable. Upon clicking the button you will see the character select screen; here you can choose your fighter. Click your fighter's name and the fight will begin! TO fight your opponent, choose one of the moves in bottom right of the screen. The fastest player goes first, damage is the attack's damage times the characters strength, and damage taken is damage dealt over your opponent's defense rounded up. After this, you choose another move until someone is the victor!" TextWrapping="Wrap" Background="#7F787878" Margin="84,61,84,60" FontSize="20"/>
+
+    </Grid>
+</Window>
